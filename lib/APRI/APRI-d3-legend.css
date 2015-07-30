@@ -1,0 +1,30 @@
+
+.legendkey .caption {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.legendkey path {
+  display: none;
+}
+
+.legendkey text {
+  font: 10px sans-serif;
+}
+
+.legendkey line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+svg.legendkey g.tick {
+  opacity: 0.8;
+  #stroke: lightgrey;
+}
+
+div.apri-leaflet-control-active.hide {
+	display: none;
+}
+div.apri-leaflet-control-active.visible {
+	display: block;
+}

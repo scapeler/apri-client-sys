@@ -1,0 +1,35 @@
+/* body{font: 10px Helvetica;background: #eee;} */
+i.fa.fa-gauge{margin: 0 10px 0 0;}
+.fa-times-circle{position: absolute;right: -5px;top: -15px;}
+.leaflet-popup-wrapper{width:471px;padding: 12px;}
+.leaflet-content-wrapper{background: #fff;box-shadow: 0 3px 14px rgba(0,0,0,0.4);}
+.leaflet-popup-tip-container {margin: 0 auto;width: 40px;height: 20px;position: relative;overflow: hidden;}
+.leaflet-popup-tip {background: white;box-shadow: 0 3px 14px rgba(0,0,0,0.4);}
+.leaflet-popup-tip {width: 17px;height: 17px;padding: 1px;margin: -10px auto 0;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);transform: rotate(45deg);}
+.gauge-wrapper{width:472px; height:230px; border-bottom: 1px solid rgba(0,0,0,0.1);}
+.gauge-wrapper span{float: left;}
+
+.measurepoint-wrapper{text-align: center;font-size: 13px;padding: 20px 0px;border-bottom: 1px solid rgba(0,0,0,0.1);}
+.measurepoint-wrapper.head{font-size: 16px;padding: 0px 0 40px;}
+.measurepoint-wrapper.cta{float:left; width:100%; background: #f2f2f2;text-shadow:1px 1px #fff;border-bottom: 0 transparent;}
+.measurepoint-wrapper.cta span{border-bottom: 1px dotted #777;}
+.measurepoint-wrapper.footer{text-align: center;border-bottom: 0 transparent;float:left;width:100%;}
+.measurepoint-data{width: 50%;float: left;position: relative;}
+.measurepoint-address{}
+svg.gauge:first-child{margin-left: 17px;}
+svg.gauge{margin: 20px 10px;}
+
+.gauge .bar { fill: #3889bc;}
+.gauge .bar:hover {fill: rgb(220, 57, 18);cursor: pointer;}
+.gauge .axis { font: 10px sans-serif;}
+.gauge .axis path,
+.gauge .axis line { fill: none; stroke: #000; shape-rendering: crispEdges;}
+.gauge .x.axis path { display: none;}
+
+.chart-wrapper-scroll {
+	float:left;
+	overflow:scroll;
+	height:400px;
+}
+

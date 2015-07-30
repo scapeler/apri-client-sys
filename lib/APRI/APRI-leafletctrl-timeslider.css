@@ -1,0 +1,37 @@
+
+.timeslideraxis .caption {
+  font-weight: bold;
+  font-size: 12px;
+}
+.timeslideraxis .activedatetime {
+  //font-weight: bold;
+  font-size: 18px;
+}
+
+.timeslideraxis text {
+  font: 10px sans-serif;
+}
+ 
+.timeslideraxis path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+ .timeslideraxis line {
+  fill: none;
+  stroke: green;
+  stroke-width: 1.6px;
+}
+
+.timeslideraxis .minor {
+  stroke: red;
+  stroke-width: 0.4px;
+}
+
+div.apri-leaflet-control-active.hide {
+	display: none;
+}
+div.apri-leaflet-control-active.visible {
+	display: block;
+}

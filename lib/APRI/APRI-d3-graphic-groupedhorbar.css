@@ -1,0 +1,29 @@
+.groupedhorbar .chart .legend {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.groupedhorbar .chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.groupedhorbar .chart .label {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: end;
+}
+
+.groupedhorbar .bar:hover {
+  fill: brown;
+}
+
+.groupedhorbar .axis path,
+.groupedhorbar .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

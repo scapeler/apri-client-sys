@@ -1,0 +1,19 @@
+
+svg.trend {
+  font: 10px sans-serif;
+}
+
+
+path.trendline {
+  fill: none;
+  stroke-width: 2px;
+  stroke-opacity: 0.25;
+}
+
+.trendaxis path,
+.trendaxis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
