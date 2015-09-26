@@ -17,3 +17,22 @@ path.trendline {
   shape-rendering: crispEdges;
 }
 
+.apri-view-header {
+ 	  font: 24px sans-serif;
+	  font-weight:bold;
+}
+
+.color-label {
+	float:left;
+	min-width:100px;
+	margin-left:10px;
+}
+
+li.color-label {
+	list-style-type: none;
+}
+
+svg {
+	float:left;
+}
+
