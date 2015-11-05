@@ -6,14 +6,15 @@ svg.trend {
 
 path.trendline {
   fill: none;
-  stroke-width: 2px;
-  #stroke-opacity: 0.25;
+  stroke-width: 1px;
+  stroke-opacity: 1;
 }
 
 .trendaxis path,
 .trendaxis line {
   fill: none;
   stroke: #000;
+  stroke-opacity: 0.5;
   shape-rendering: crispEdges;
 }
 
