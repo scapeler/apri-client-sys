@@ -410,6 +410,7 @@ div#apri-apps-header-title-container {
 
 .explorer {
 	-webkit-padding-start:0px;
+	padding-left:0px;
 }
 
 .explorer .treenode-root div.treenode-root{
@@ -435,4 +436,17 @@ div#apri-apps-header-title-container {
 .sub-nodes-invisible ul {
 	display:none;
 	visible:false;
+}
+
+.fa-plus-square-o, .fa-minus-square-o {
+	clear:both;
+}
+.fa-check-square-o, .fa-check-square-o, .fa-plus-square-o, .fa-minus-square-o, .fa-square-o {
+	float:left;
+	padding:2px;
+	width:12px;
+}
+.tree-li-actionblock-text {
+	float:left;
+	margin-left: 6px;
 }
