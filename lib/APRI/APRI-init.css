@@ -407,3 +407,32 @@ div#apri-apps-header-title-container {
   0%   { transform: scale(0.1);}
   100% { transform: scale(1); }
 }
+
+.explorer {
+	-webkit-padding-start:0px;
+}
+
+.explorer .treenode-root div.treenode-root{
+	display: none;
+    visibility: hidden;
+}
+
+.explorer ul {
+	padding-left:10px;
+}
+
+.explorer li {
+	list-style-type:none;
+}
+
+.sub-nodes-plus-min {
+	float:left;
+	#margin-right:4px;
+	width:12px;
+	text-align: center;
+}
+
+.sub-nodes-invisible ul {
+	display:none;
+	visible:false;
+}
