@@ -408,45 +408,4 @@ div#apri-apps-header-title-container {
   100% { transform: scale(1); }
 }
 
-.explorer {
-	-webkit-padding-start:0px;
-	padding-left:0px;
-}
 
-.explorer .treenode-root div.treenode-root{
-	display: none;
-    visibility: hidden;
-}
-
-.explorer ul {
-	padding-left:10px;
-}
-
-.explorer li {
-	list-style-type:none;
-}
-
-.sub-nodes-plus-min {
-	float:left;
-	#margin-right:4px;
-	width:12px;
-	text-align: center;
-}
-
-.sub-nodes-invisible ul {
-	display:none;
-	visible:false;
-}
-
-.fa-plus-square-o, .fa-minus-square-o {
-	clear:both;
-}
-.fa-check-square-o, .fa-check-square-o, .fa-plus-square-o, .fa-minus-square-o, .fa-square-o {
-	float:left;
-	padding:2px;
-	width:12px;
-}
-.tree-li-actionblock-text {
-	float:left;
-	margin-left: 6px;
-}
