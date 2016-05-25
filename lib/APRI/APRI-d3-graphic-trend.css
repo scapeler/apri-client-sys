@@ -18,10 +18,12 @@ path.trendline {
   shape-rendering: crispEdges;
 }
 
+/*
 .apri-view-header {
  	  font: 24px sans-serif;
 	  font-weight:bold;
 }
+*/
 
 .color-label {
 	float:left;
